@@ -1,0 +1,3 @@
+[submodule "upstream-repo"]
+	path = upstream-repo
+	url = https://github.com/VSC-NeuroPilot/neuropilot.git
