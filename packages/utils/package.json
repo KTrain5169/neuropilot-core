@@ -1,0 +1,25 @@
+{
+  "name": "@ktrain5369/neuropilot-core-utils",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "prepare": "pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/vscode": "catalog:types",
+    "@vsc-neuropilot/api-types": "catalog:types",
+    "tsdown": "catalog:tools"
+  },
+  "peerDependencies": {
+    "@types/vscode": "catalog:types",
+    "@vsc-neuropilot/api-types": "catalog:types"
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "types": ["vscode-webview"],
+        "jsx": "react-jsx",
+        "jsxImportSource": "preact"
+    },
+    "include": ["ui", "types"]
+}

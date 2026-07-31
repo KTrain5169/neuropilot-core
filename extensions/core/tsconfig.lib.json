@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "lib": [],
+    },
+    "include": ["src", "types"]
+}

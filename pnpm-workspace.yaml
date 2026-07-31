@@ -1,0 +1,16 @@
+allowBuilds:
+  "@vscode/vsce-sign": false
+  keytar: false
+packages:
+  - extensions/*
+  - packages/*
+catalogMode: prefer
+catalogs:
+  types:
+    "@types/vscode": ~1.105.0
+    "@vsc-neuropilot/api-types": 1.0.0-pre.6
+  tools:
+    tsdown: 0.22.0
+    rolldown: 1.0.0
+    "@vscode/vsce": 3.9.1
+    ovsx: 0.10.12
